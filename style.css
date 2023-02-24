@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  background-color: #ffc244ff;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav img {
+  height: 50px;
+  width: 50px;
+}
+
+nav .search-bar {
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  background-color: #ccc6c7;
+}
+
+nav a {
+  text-decoration: none;
+  color: green;
+  font-size: 15px;
+  margin-left: 15px;
+}
+
+nav a:hover {
+  color: red;
+}
+
+section {
+  background-color: #ffc244ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+section .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section .right p {
+  font-family: "Quicksand";
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+section .right h1 {
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  height: 60px;
+  width: 95%;
+  border-radius: 15px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-right: 20px;
+  margin-top: 20px;
+}
+
+.options .input {
+  padding: 5px;
+  border: none;
+  font-family: 'quicksand';
+  font-size: 1.3rem;
+  margin-left: 10px;
+}
+
+.options a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: green;
+}
+
+.options #flag {
+  padding: 22px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: green;
+  color: white;
+  border-radius: 5px 0 0 5px;
+}
+
+.options #paperplane {
+  padding: 12px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: green;
+  color: white;
+  border-radius: 50px;
+}
+/*# sourceMappingURL=style.css.map */
